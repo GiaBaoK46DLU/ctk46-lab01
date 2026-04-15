@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CTK46 - Lab 01: Tổng quan & Thiết lập môi trường
 
-## Getting Started
+Đây là repository lưu trữ kết quả thực hành **Bài lab 1: Tổng quan & Thiết lập môi trường phát triển**, thuộc môn học Các công nghệ mới trong phát triển phần mềm.
 
-First, run the development server:
+## 🚀 Mục tiêu đã hoàn thành
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Trong dự án này, các công việc sau đã được thực hiện:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Thiết lập môi trường:** Cấu hình thành công Node.js, Git, và Visual Studio Code (với các extension chuẩn).
+- **Git Workflow:** Thực hành tạo nhánh, merge code và giải quyết thành công Merge Conflict.
+- **Tích hợp AI:** Trải nghiệm viết code với GitHub Copilot, sử dụng Copilot CLI và Gemini CLI trực tiếp trên Terminal.
+- **Next.js:** Khởi tạo thành công dự án web hiện đại với Next.js (App Router) và Tailwind CSS.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Công nghệ sử dụng
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Core:** Node.js, Git.
+- **Framework & Styling:** Next.js (React), Tailwind CSS, TypeScript.
+- **AI Tools:** GitHub Copilot, Gemini CLI.
 
-## Learn More
+## 📁 Cấu trúc thư mục chính
 
-To learn more about Next.js, take a look at the following resources:
+- `my-first-nextjs/`: Thư mục chứa mã nguồn ứng dụng Next.js.
+- `main.js`, `about.html`, `bai-tap-copilot.js`: Các file thực hành Git workflow và Copilot cơ bản.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💻 Hướng dẫn chạy dự án Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Để khởi chạy ứng dụng web trên máy của bạn, hãy làm theo các bước sau:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Di chuyển vào thư mục Next.js:
+   ```bash
+   cd my-first-nextjs
+   ```
