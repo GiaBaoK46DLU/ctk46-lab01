@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostBySlug, posts } from "../../../../data/posts";
+import LikeButton from "../../../../components/like-button";
 
 // 1. SỬA LỖI Ở ĐÂY: Đổi kiểu dữ liệu của slug từ string thành mảng chuỗi (string[])
 interface BlogPostPageProps {
@@ -38,13 +39,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             {post.category}
           </span>
           <span className="text-sm text-gray-400">{post.date}</span>
-          <span className="text-sm text-gray-600 font-medium">
-            | Tác giả: {post.author}
-          </span>
         </div>
         <h1 className="text-3xl font-bold mb-6">{post.title}</h1>
-        <div className="prose max-w-none text-gray-700 whitespace-pre-line">
+        <div className="prose max-w-none text-gray-700 whitespace-pre-line mb-8">
           {post.content}
+        </div>
+        <div className="border-t pt-6">
+          <LikeButton />
         </div>
       </article>
     </div>
